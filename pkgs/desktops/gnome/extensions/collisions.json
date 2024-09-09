@@ -12,32 +12,32 @@
     "PersianCalendar@oxygenws.com"
   ],
   "openweather": [
-    "openweather-extension@penguin-teal.github.io",
-    "openweather-extension@jenslody.de"
+    "openweather-extension@jenslody.de",
+    "openweather-extension@penguin-teal.github.io"
   ],
   "clipboard-indicator": [
-    "clipboard-indicator@Dieg0Js.github.io",
-    "clipboard-indicator@tudmotu.com"
+    "clipboard-indicator@tudmotu.com",
+    "clipboard-indicator@Dieg0Js.github.io"
   ],
   "system-monitor": [
     "System_Monitor@bghome.gmail.com",
     "system-monitor@gnome-shell-extensions.gcampax.github.com"
   ],
   "virtualbox-applet": [
-    "vbox-applet@buba98",
-    "vbox-applet@gs.eros2.info"
+    "vbox-applet@gs.eros2.info",
+    "vbox-applet@buba98"
   ],
   "panel-date-format": [
-    "panel-date-format@atareao.es",
-    "panel-date-format@keiii.github.com"
+    "panel-date-format@keiii.github.com",
+    "panel-date-format@atareao.es"
   ],
   "battery-time": [
     "batime@martin.zurowietz.de",
     "batterytime@typeof.pw"
   ],
   "kernel-indicator": [
-    "kernel-indicator@pvizc.gitlab.com",
-    "kernel-indicator@elboulangero.gitlab.com"
+    "kernel-indicator@elboulangero.gitlab.com",
+    "kernel-indicator@pvizc.gitlab.com"
   ],
   "fuzzy-clock": [
     "FuzzyClock@fire-man-x",
