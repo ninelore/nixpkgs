@@ -34,6 +34,7 @@ let
   # Determine the set of modules that we need to mount the root FS.
   modulesClosure = pkgs.makeModulesClosure {
     rootModules = config.boot.initrd.availableKernelModules ++ config.boot.initrd.kernelModules;
+    allModules = config.boot.initrd.includeAllModulesAndFirmware;
     kernel = config.system.modulesTree;
     firmware = config.hardware.firmware;
     allowMissing = config.boot.initrd.allowMissingModules;

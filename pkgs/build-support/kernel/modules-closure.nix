@@ -10,6 +10,7 @@
   nukeReferences,
   rootModules,
   kmod,
+  allModules ? false,
   allowMissing ? false,
   extraFirmwarePaths ? [ ],
 }:
@@ -25,6 +26,7 @@ stdenvNoCC.mkDerivation {
     kernel
     firmware
     rootModules
+    allModules
     allowMissing
     extraFirmwarePaths
     ;

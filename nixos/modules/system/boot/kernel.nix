@@ -260,6 +260,18 @@ in
       '';
     };
 
+    boot.initrd.includeAllModulesAndFirmware = mkOption {
+      type = types.bool;
+      default = false;
+      description = ''
+        Whether to add all available kernel modules and firmware to
+        the initrd. This maximizes hardware compatibility.
+
+        Note that enabling this will significantly increase the
+        size of the initrd with default nixpkgs kernel packages.
+      '';
+    };
+
     boot.initrd.allowMissingModules = mkOption {
       type = types.bool;
       default = false;
